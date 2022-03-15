@@ -2,7 +2,7 @@
 A collection of scripts created/scavenged during work in my home lab
 
 ## CitrixTest.ps1
-A script that uses the AutoIt PowerShell module to test-launch Citrix Apps, detect for failures, scraping the Citrix receiver logs for the app server name of the failed launch, and tries to take a screenshot of an error related to the app not launching. 
+A script that uses the AutoIt PowerShell module to test-launch Citrix Apps, detect for failures, scraping the Citrix receiver logs for the app server name of the failed launch, and tries to take a screenshot of an error related to the app not launching. Also records statistics of launch times and launch failure ratio. 
 
 ## Reset-WindowsUpdate.ps1
 A script salvaged from the now-retired Microsoft TechNet Repository - Useful in repairing Windows updates when other repair methods have failed. Use with caution (take a snapshot and potentially run individual lines separately to see what works for you).
